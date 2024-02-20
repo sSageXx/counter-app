@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-image: url("/images/city-in-the-horizon-pixel-art.png");
+    background-size: cover;
+    background-position: center 0;
+    height: 96vh;
+    font-family: "Sanchez", serif;
+    font-weight: 600;
+    color: #f7e9e3;
+    text-shadow: 0 0 1px #333333;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    margin: 0;
+    padding: 4rem 3rem;
+}
+
+#title {
+    margin: 0;
+    font-size: 4vw;
+}
+
+#count-el {
+    margin: 1.6rem 0;
+    font-size: 5rem;
+}
+
+button {
+    border: none;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 10px 0;
+    width: 56%;
+    max-width: 16rem;
+    min-width: 8rem;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: inherit;
+    color: inherit;
+    text-shadow: inherit;
+}
+
+#increase-btn {
+    background: #a20452;
+}
+
+#save-btn {
+    background: darkcyan;
+}
+
+#entries-wrapper {
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    background-color: rgba(247, 233, 227, 0.9);
+    padding: 0.4rem 2rem;
+    width: 30%;
+    max-width: 32rem;
+    min-width: 8rem;
+    font-size: 1.4rem;
+    text-shadow: none;
+    color: #48035b;
+}
